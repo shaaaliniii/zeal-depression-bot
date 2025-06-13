@@ -59,8 +59,6 @@ source venv/bin/activate
 3️⃣ Install Dependencies
 ```bash
 pip install -r requirements.txt
-
-
 ```
 4️⃣ Run the App with Streamlit
 ```bash
