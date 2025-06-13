@@ -1,4 +1,4 @@
-# 🧠 ZEAL Depression Bot
+🧠 ZEAL Depression Bot
 
 **ZEAL** is an AI-powered mental health assistant that detects signs of depression through natural language input. Designed especially for students and youth, it analyzes essays, journal entries, or written reflections to identify early signs of emotional distress.
 
@@ -65,6 +65,17 @@ pip install -r requirements.txt
 streamlit run Main.py
 
 ```
+
+## 📸 Results
+
+### 🔹 Home Page
+![ZEAL UI](https://github.com/user-attachments/assets/585f5ca5-5b0f-4720-9e57-f47ff93b65bc)
+
+### 🔹 Red Flags and Concerning words
+![Text Analyzer](https://github.com/user-attachments/assets/db5f2270-b0a3-4f70-8b4a-00e54e034e5b)
+![Red Flags](https://github.com/user-attachments/assets/c9ae0d6d-05d0-4b61-a39b-ff3c73e5c290)
+
+---
 
 ## 🗂️ Project Structure
 
