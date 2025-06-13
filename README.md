@@ -30,6 +30,97 @@ Mental health concerns are a growing crisis among adolescents — with nearly **
 
 > 💡 *Use these steps if you want to run the project locally instead of using the Streamlit Cloud version.*
 
+
+2️⃣ Create a Virtual Environment (Optional but Recommended)
+bash
+Copy
+Edit
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# macOS/Linux
+source venv/bin/activate
+3️⃣ Install Dependencies
+bash
+Copy
+Edit
+pip install -r requirements.txt
+4️⃣ Run the Application
+bash
+Copy
+Edit
+streamlit run Main.py
+🧾 Project Structure
+bash
+Copy
+Edit
+zeal-depression-bot/
+├── Main.py               # Entry point for Streamlit app
+├── app.py                # Helper for launching the interface
+├── Brain.py              # Core NLP logic and sentiment/category classifier
+├── chat.py               # Conversation and chat-based input support
+├── hi.py                 # Miscellaneous support functions
+├── listen.py             # Input handlers (text/PDF)
+├── requirements.txt      # Python package requirements
+├── README.md             # Project documentation
+├── screenshots/          # Screenshots used in README
+└── sample_data/          # (Optional) Sample inputs for testing
+📦 Model & Dataset Info
+Training Data: Synthetic essays, Reddit posts (mental health forums), anonymized student samples
+
+ML Approach: Lexicon + keyword-matching with rules-based sentiment filtering
+
+Libraries Used: NLTK, TextBlob, PyPDF2, Streamlit
+
+Categories Detected:
+
+Sadness
+
+Hopelessness
+
+Anxiety
+
+Isolation
+
+Self-blame
+
+Irritability
+
+🧰 Tech Stack
+Layer	Technologies Used
+Language	Python
+Libraries	NLTK, TextBlob, PyPDF2
+Frontend	Streamlit
+Hosting	Streamlit Cloud / Localhost
+
+🔮 Future Improvements
+🔍 Use of transformer models (e.g., BERT) for deeper context
+
+📈 Timeline-based sentiment analysis to track mental health over time
+
+🌐 Multi-language and multi-format support
+
+🛡️ Enhanced privacy and encryption for uploads
+
+⚠️ Disclaimer
+T.E.D.D.Y is not a diagnostic tool. It is an awareness and detection aid intended for educational purposes. For clinical evaluation or diagnosis, consult a licensed mental health professional.
+
+👩‍💻 Developed By
+Shalini Singh
+B.Tech CSE, IIIT Naya Raipur
+GitHub: @shaaaliniii
+
+⭐ Acknowledgements
+Streamlit Team
+
+NLTK & TextBlob
+
+Open-source mental health datasets
+
+Mentors at Technovation
+
+Students and teachers who inspired this idea 💡
+
 ### 1️⃣ Clone the Repository
 
 ```bash
